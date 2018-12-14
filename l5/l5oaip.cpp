@@ -3,12 +3,12 @@
 #include <cstdlib>
 using namespace std;
 int main(){
-int csm;
+	int csm;
     cout << "input size of massive" << endl;
     cin >> csm;
     cout << endl;
 int a[csm],rm;
-long int res = 1;
+int res = 1;
 srand (time(0));
 	cout << "1) Random input  2) Manual input"<<endl;
 	cin>>rm;
